@@ -1,0 +1,36 @@
+@import url(https://fonts.googleapis.com/css?family=Bitter|Russo+One|Teko&display=swap);
+
+@import url(components/container.css);
+@import url(components/avatar.css);
+@import url(components/button.css);
+@import url(components/banner.css);
+@import url(components/card.css);
+@import url(components/subcontainer.css);
+
+body {
+	font-family: 'Bitter', serif;
+	font-size: 15px;
+	margin: 0px;
+	background-color: #F0ECE9;
+}
+
+h1{
+	font-family: 'Russo One', sans-serif; 
+}
+
+h2{
+	font-size: 40px;
+	font-family: 'Teko', sans-serif;
+}
+
+
+@media (max-width: 760px) {
+	.container{
+	width: 600px;}
+}
+
+@media (max-width: 500px) {
+	.container{
+	width: 400px;}
+}
+
